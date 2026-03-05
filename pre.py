@@ -9,6 +9,7 @@ def reverse_postorder(node_succs, start):
     postorder = list(nx.dfs_postorder_nodes(G, start))
     return list(reversed(postorder))
 
+# partial-redundancy elimination code for this CFG
 
 node_succs = {0: [1], 
                 1: [2, 3], 
