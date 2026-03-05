@@ -1,1 +1,3 @@
+# Partial-Redundancy Elimination (PRE)
+
 What I believe to be a correct implementation of the lazy-code motion/partial-redundancy elimination algorithm described in the book: Compilers: Principles, Techniques, and Tools. Written in Python with sample CFG. 
